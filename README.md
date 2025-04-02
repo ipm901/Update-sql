@@ -14,7 +14,7 @@
 <pre>INSERT INTO</span> Profile (last_login, username, first_name, last_name, email, 
 is_active, phone, date_of_birth)
 values( 'volfgun_666@gmail.com', 'Семен', 'Коржов' 
-'</span>volfgun_666@gmail.com', TRUE, '+7-906-563-45-91'.'')</pre>
+'</span>volfgun_666@gmail.com', TRUE, '+7-906-563-45-91'.'1966-10-27'')</pre>
 
 <p ><em>Обнавляю информацию о пользователе:</em></p>
 
