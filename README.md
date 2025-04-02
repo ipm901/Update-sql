@@ -20,7 +20,8 @@ values( 'volfgun_666@gmail.com', 'Семен', 'Коржов'
 
 
 
-<pre>UPDATE Profile 
+<pre>
+UPDATE Profile 
 SET date_of_birth = '1999-09-26'
 WHERE id = 10</pre>
 
@@ -37,8 +38,3 @@ WHERE ID > 5 AND ID < 8
 FROM Profile
 WHERE email LIKE '%@gmail.com'</pre>
 
-<span class="pl-k">INSERT INTO</span>
-</body>
- <p style="font-family:verdana;color:red;">
-      Этот текст написан красным цветов с помощью шрифта Verdana.
-    </p>
