@@ -1,5 +1,8 @@
+<head>
 
-
+</head>
+ 
+<body>
  
 В качестве репрезентации опыта работы с SQL-запросами рассмотрим сайт Alikson.ru. В частности работа с профилем (добавление, удаление, обновление информации о пользователе)
 
@@ -8,12 +11,12 @@
 Пояснение: Все операции провожу над таблицей Profile, которая имеет следующие поля last_login, username, first_name, last_name, email, is_active, phone, date_of_birth.
 
 Добавляю пользователя:
-</span></span><pre><span class="pl-k">INSERT INTO</span> Profile (last_login, username, first_name, last_name, email, 
+<pre>INSERT INTO</span> Profile (last_login, username, first_name, last_name, email, 
 is_active, phone, date_of_birth)
-<span class="pl-k">values</span> (<span class="pl-k">NULL</span>, <span class="pl-s"><span class="pl-pds">'</span>volfgun_666@gmail.com<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Семен<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Коржов<span class="pl-pds">'</span></span>, 
-<span class="pl-s"><span class="pl-pds">'</span>volfgun_666@gmail.com<span class="pl-pds">'</span></span>, TRUE, <span class="pl-s"><span class="pl-pds">'</span>+7-906-563-45-91<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>1966-10-27<span class="pl-pds">'</span></span>)</pre>
+values( 'volfgun_666@gmail.com', 'Семен', 'Коржов' 
+'</span>volfgun_666@gmail.com', TRUE, '+7-906-563-45-91'.'')</pre>
 
-<p dir="auto"><em>Обнавляю информацию о пользователе:</em></p>
+<p ><em>Обнавляю информацию о пользователе:</em></p>
 
 
 
@@ -21,7 +24,7 @@ is_active, phone, date_of_birth)
 SET date_of_birth = '1999-09-26'
 WHERE id = 10</pre>
 
-<p dir="auto">Удаление несокльких пользователей:</em></p>
+<p>Удаление несокльких пользователей:</em></p>
 
 <pre>
   
@@ -29,9 +32,13 @@ WHERE id = 10</pre>
 WHERE ID > 5 AND ID < 8
 </pre>
 
-<p dir="auto">Вывод пользователей с почтовым ящиком @gmail.com:</em></p>
+<p><em>Вывод пользователей с почтовым ящиком @gmail.com:</em></p>
 <pre>SELECT *
 FROM Profile
 WHERE email LIKE '%@gmail.com'</pre>
 
 <span class="pl-k">INSERT INTO</span>
+</body>
+ <p style="font-family:verdana;color:red;">
+      Этот текст написан красным цветов с помощью шрифта Verdana.
+    </p>
